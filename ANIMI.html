@@ -1,0 +1,204 @@
+<html>
+<head>
+<style>
+body
+{
+	background-color: black;
+	color: white;
+	font-size: 17px;
+	font-family: sans-serif;
+}
+#heading
+{
+	background-color:orangered;
+	padding: 15px 254px;
+	color: white;
+	width: 380px;
+	border-radius: 0px 20px 20px 0px;
+	font-family: sans-serif;
+}
+#img1
+{
+	position: absolute;
+	left: 160px;
+	top: 1px;
+}
+#img2
+{
+	position: absolute;
+	left: 552px;
+	top: 1px;
+}
+#label1
+{
+	position: absolute;
+	top: 100px;
+	left: 130px;
+}
+#nameTextBox
+{
+	position: relative;
+	left: 120px;
+	top: -5px;
+	height: 60px;
+	width: 400px;
+	border-radius: 5px;
+	background-color: #3c3c3c;
+	font-size: 20px;
+	color: orangered;
+	border-color: orangered;
+}
+#label2
+{
+	position: absolute;
+	left: 130px;
+	top: 210px;
+}
+#countryTextBox
+{
+	position: relative;
+	left: 120px;
+	top: 25px;
+	height: 60px;
+	width: 400px;
+	border-radius: 5px;
+	background-color: #3c3c3c;
+	font-size: 20px;
+	color: orangered;
+	border-color: orangered;
+}
+#label3
+{
+	position: absolute;
+	left: 130px;
+	top: 320px;
+}
+#noOfEpisodeTextBox
+{
+	position: relative;
+	left: 120px;
+	top: 55px;
+	height: 60px;
+	width: 400px;
+	border-radius: 5px;
+	background-color: #3c3c3c;
+	font-size: 20px;
+	color: orangered;
+	border-color: orangered;
+}
+#label4
+{
+	position: absolute;
+	left: 130px;
+	top: 430px;
+}
+#yourRatingTextBox
+{
+	position: relative;
+	left: 120px;
+	top: 85px;
+	height: 60px;
+	width: 400px;
+	border-radius: 5px;
+	background-color: #3c3c3c;
+	font-size: 20px;
+	color: orangered;
+	border-color: orangered;
+}
+#label5
+{
+	position: absolute;
+	left: 130px;
+	top: 538px;
+}
+#awardsTextBox
+{
+	position: relative;
+	left: 120px;
+	top: 110px;
+	height: 60px;
+	width: 400px;
+	border-radius: 5px;
+	background-color: #3c3c3c;
+	font-size: 20px;
+	color: orangered;
+	border-color: orangered;
+}
+#label6
+{
+	position: absolute;
+	left: 700px;
+	top: 210px;
+}
+#descriptionTextBox
+{
+	position: absolute;
+	left: 700px;
+	top: 235px;
+	height: 150px;
+	width: 500px;
+	border-radius: 5px;
+	background-color: #3c3c3c;
+	font-size: 20px;
+	color: orangered;
+	border-color: orangered;
+}
+#submitButton
+{
+	position: absolute;
+	left: 900px;
+	top: 420px;
+	border-radius: 5px;
+	background-color: #ddd;
+  	border: none;
+  	color: black;
+  	padding: 16px 32px;
+  	text-align: center;
+  	font-size: 16px;
+  	margin: 4px 2px;
+  	transition: 0.3s;
+}
+#submitButton:hover
+{
+	background-color: orangered;
+	color: white;
+}
+</style>
+<body>
+<h1 id="heading">ANIMI-FORMS</h1>
+<h3></h3>
+<img id="img1" src="https://img.icons8.com/glyph-neue/2x/batman-new.png" width="85px" height="85px">
+<img id="img2" src="https://img.icons8.com/glyph-neue/2x/batman-new.png" width="85px" height="85px">
+<form>
+<label for="ANIMI-Name" id="label1">ANIMI-Name</label>
+<br>
+<input type="text" id="nameTextBox" name="ANIMI-Name">
+<br>
+<label for="ANIMI-(ORIGIN-COUNTRY)" id="label2">ANIMI-(ORIGIN-COUNTRY)</label>
+<br>
+<select name="ANIMI-(ORIGIN-COUNTRY)" id="countryTextBox">
+        <option value="India">India</option>
+	    <option value="Japan">Japan</option>
+    	<option value="USA">USA</option>
+    	<option value="UK">UK</option>
+    	<option value="Africa">Africa</option>
+</select>
+<br>
+<label for="No.of.Episodes" id="label3">No.of.Episodes</label>
+<br>
+<input type="text" id="noOfEpisodeTextBox" name="No.of.Episodes">
+<br>
+<label for="YOUR RATING" id="label4">YOUR RATING</label>
+<br>
+<input type="text" id="yourRatingTextBox" name="YOUR RATING">
+<br>
+<label for="AWARDS" id="label5">AWARDS</label>
+<br>
+<input type="text" id="awardsTextBox" name="AWARDS">
+<br>
+</form>
+<label id="label6" for="DESCRIPTION ABOUT THE ANIMI">DESCRIPTION ABOUT THE ANIMI</label>
+<textarea id="descriptionTextBox" rows="4" cols="50" name="DESCRIPTION ABOUT THE ANIMI" form="usrform"></textarea>
+<button type="button" id="submitButton">SUBMIT</button>
+</body>
+</html>
